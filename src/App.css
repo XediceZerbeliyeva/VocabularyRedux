@@ -1,0 +1,105 @@
+.container {
+  width: 500px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+}
+.words {
+  font-size: 30px;
+  font-weight: bold;
+}
+.current {
+  color: gray;
+}
+.word {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.wordSegment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.en {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tr {
+  font-weight: bold;
+  font-size: 25px;
+  color: gray;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 400px;
+}
+.textBox {
+  width: 70px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid;
+  background-color: #eaeaea;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 5px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+}
+.close{
+  margin-left: 150px;
+}
+.buttonText {
+  margin-left: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+.cross {
+  color: gray;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.ReactModal__Content,.modal {
+   width: 160px;
+   flex-direction: column;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  margin: auto;
+}
+.ReactModal__Content{
+  margin-top: 70px
+}
